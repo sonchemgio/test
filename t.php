@@ -4,5 +4,5 @@
     echo "Nhập Chủ đề thư, Nội dung theo dạng: Chủ đề|Nội dung\n";
     $string = trim(fgets(STDIN));
     //fwrite($fp,trim(fgets(STDIN)));
-    echo $string;
+    echo $string."\n";
 ?>
